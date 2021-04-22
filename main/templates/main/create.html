@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block content%}
-    <h2>Создать задачу</h2>
+    <h2>Create task</h2>
     <form method="post">
         {% csrf_token %}
         {{ form.title }}<br>
